@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.css">
+
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1b.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"> HOME </a></li>
+                    <li><a href="Service.html"> SERVICES </a></li>
+                    <li><a href="contact.html"> CONTACT </a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-- ------------------ contsctss------------------------ -->
+    <div class="blog-content">
+        <h1>Here are some other means of contacting us</h1>
+        <div class="row">
+            <div class="blog-left">
+                <div id="iframe-cover">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253790.42441371843!2d5.
+                447488115008534!3d6.332404283869737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                1!3m3!1m2!1s0x1040d36279cfacf1%3A0x84aa10c05758dfa0!2sBenin%20City%2C%20Edo!5e0!3m2!1sen!2sng!4v1727475455685!5m2!1sen!2sng"
+                        width="600%" height="450%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="contact-us">
+                        <div class="row">
+                            <div class="contact-col">
+                                <div>
+                                    <i class="fa-solid fa-house-user"></i>
+                                    <span>
+                                        <h5>NO,9 Damazah street Off Eweka</h5>
+                                        <P>benin city,Nigeria</P>
+                                    </span>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>
+                                        <h5>+234-805-086-6819</h5>
+                                        <P>Monday to saturday,10AM to 6PM</P>
+                                    </span>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <span>
+                                        <h5>liveseyenosakhare@gmail.com</h5>
+                                        <P>Email us your query</P>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <ul>
+                    <li><a href="">Whatsapp</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">TikTok</a></li>
+                    <li><a href="">Instagram</a></li>
+                </ul>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form" action="formhandler.php" method="post">
+
+                        <input type="text" name="name" placeholder="Enter Name" required>
+
+                        <input type="email" name="email" placeholder="Enter Email" required>
+
+                        <input type="text" name="saubject" placeholder="Enter subject" required>
+
+                        <textarea rows="8" name="message" placeholder="message" required>
+                            </textarea>
+                        <button type="submit" class="abt-btn red-btn">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- transition-behavior: normal;    -->
+    <!-- transition-duration: 200ms;    -->
+    <!-- transition-timing-function: ease;    -->
+    <!-- transition-delay: 0s;     -->
+    <!-- transition-property: transform; -->
+
+
+
+    <div class="footer">
+        <h4>Terms and conditions</h4>
+        <p>The OFL allows the licensed fonts to be used, studied,The
+            requirement for fonts to remain under this license does not a
+            to <br>any document created using the fonts or their derivatives.</p>
+        <div class="icon">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Designed by <i class="fa-brands fa-wolf-pack-battalion fa-fade"></i>Es-wolf </p>
+    </div>
+
+
+
+
+    <!-- <-------java script for toggle menu-------->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+
+</body>
+
+</html>
